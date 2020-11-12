@@ -19,16 +19,16 @@ This script won't work with any previous versions of Ubuntu/Pop-Os because they 
 * Pop Os 20.04/20.10
 
 # Installation Steps
-* Step 1: Install libglib2.0-dev-bin using sudo apt-get installlibglib2.0-dev-bin
-* Step 2: clone the repo using WGET or git clone:
+* Step 1: Install libglib2.0-dev-bin using `sudo apt-get installlibglib2.0-dev-bin`
+* Step 2: clone the repo using `WGET` or `git clone`:
 https://github.com/mastersubhajit/change-gdm3-background.git
-* Step 3: make it executable using chmod +x change-gdm3-background
+* Step 3: make it executable using `sudo chmod +x change-gdm3-background`
 
 ## Usage
-Run the script with root privileges such as sudo ./change-gdm-background /path/to/image
+Run the script with root privileges such as `sudo ./change-gdm-background /path/to/image`
 * If you see a message login image sucessfully changed, then, when you restart gdm or reboot your computer, your gdm background should be covered with the image you selected.
-You can always restore your original gdm theme any time with sudo ./change-gdm-background --restore
-This also supports solid colour background set, to use it simply type sudo ./change-gdm-background \#yourhexcode in place of "#yourhexcode" insert code of six characters like "#923641" or of three characters like "#8ca" without quotes.
+You can always restore your original gdm theme any time with `sudo ./change-gdm-background --restore`
+This also supports solid colour background set, to use it simply type `sudo ./change-gdm-background \#yourhexcode` in place of "`#yourhexcode`" insert code of six characters like "#923641" or of three characters like "#8ca" without quotes.
 
 ## Known limitations and issues
 Feel free to report issues until now there is no known issues.
