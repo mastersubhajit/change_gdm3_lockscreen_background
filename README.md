@@ -21,7 +21,7 @@ This script won't work with any previous versions of Ubuntu/Pop-Os because they 
 # Installation Steps
 * Step 1: Install libglib2.0-dev-bin using `sudo apt-get installlibglib2.0-dev-bin`
 * Step 2: clone the repo using `WGET` or `git clone`:
-`wget github.com/mastersubhajit/change-gdm3-background/raw/main/change-gdm3-backgroung`
+`wget github.com/mastersubhajit/change-gdm3-background/raw/main/change-gdm3-background`
 * Step 3: make it executable using `sudo chmod +x change-gdm3-background`
 
 ## Usage
