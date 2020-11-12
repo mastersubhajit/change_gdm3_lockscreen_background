@@ -28,6 +28,7 @@ https://github.com/mastersubhajit/change-gdm3-background.git
 Run the script with root privileges such as `sudo ./change-gdm-background /path/to/image`
 * If you see a message login image sucessfully changed, then, when you restart gdm or reboot your computer, your gdm background should be covered with the image you selected.
 You can always restore your original gdm theme any time with `sudo ./change-gdm-background --restore`
+
 This also supports solid colour background set, to use it simply type `sudo ./change-gdm-background \#yourhexcode` in place of "`#yourhexcode`" insert code of six characters like "#923641" or of three characters like "#8ca" without quotes.
 
 ## Known limitations and issues
