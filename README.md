@@ -14,7 +14,7 @@ Gnome GDM Login Background Changer. Easy and Fast Login Wallpaper Manipulation.
 ## Warning
 This script won't work with any previous versions of Ubuntu/Pop-Os because they comes with older version of gdm rather than gdm3.36. It also won't work if your system is set to a custom gdm3 theme. You will have to reset to the default configuration of gdm3 before using the script. This script is for default Ubuntu theme (Yaru). This tool was made specifically to work with Ubuntu or Pop OS 20.04 and 20.10 as it now bundles all configuration files inside a .gresource file.
 
-### Tested On
+### Tested On 
 * Ubuntu 20.04/20.10
 * Pop Os 20.04/20.10
 
