@@ -6,7 +6,7 @@ For now this project only supports Ubuntu/Pop-Os-20.04 and 20.10 version!
 * Change login Background from wallpaper located in __/usr/share/Wallpapers__
 * Change login screen shield. (Login screen's lockscreen image)
 * Enable / disable user for login as changes takes place for only one user. 
-* Proven to work gnome-shell 3.36 onwards as it has support for it.__Might also work earlier versions but is not tested and in case if it is not working nothing can be done to fix.__
+* Proven to work gnome-shell 3.36 onwards as it has support for it. __Might also work earlier versions but is not tested and in case if it is not working nothing can be done to fix.__
 
 # gdm3 Lock Screen Background Changer
 Gnome GDM Login Background Changer. Easy and Fast Login Wallpaper Manipulation.
