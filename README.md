@@ -3,13 +3,13 @@ For now this project only supports Ubuntu/Pop-Os-20.04 and 20.10 version!
 
 ### Features
 * Change login wallpaper
-* Change login theme (global system theme) from themes located in __/usr/share/themes__
+* Change login Background from wallpaper located in __/usr/share/Wallpapers__
 * Change login screen shield. (Login screen's lockscreen image)
-* Enable / disable user list at login. 
-* Proven to work gnome-shell 3.36 onwards as it has support for it.__ Might also work earlier versions but is not tested and in case if it is not working nothing can be done to fix.
+* Enable / disable user for login as changes takes place for only one user. 
+* Proven to work gnome-shell 3.36 onwards as it has support for it.__Might also work earlier versions but is not tested and in case if it is not working nothing can be done to fix.__
 
 # gdm3 Lock Screen Background Changer
-Gnome GDM Login Theme Manager. Easy and Fast Login Theme Manipulation.
+Gnome GDM Login Background Changer. Easy and Fast Login Wallpaper Manipulation.
 
 ## Warning
 This script won't work with any previous versions of Ubuntu/Pop-Os because they comes with older version of gdm rather than gdm3.36. It also won't work if your system is set to a custom gdm3 theme. You will have to reset to the default configuration of gdm3 before using the script. This script is for default Ubuntu theme (Yaru). This tool was made specifically to work with Ubuntu or Pop OS 20.04 and 20.10 as it now bundles all configuration files inside a .gresource file.
