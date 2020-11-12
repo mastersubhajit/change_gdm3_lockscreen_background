@@ -6,7 +6,7 @@ For now this project only supports Ubuntu/Pop-Os-20.04 and 20.10 version!
 * Change login theme (global system theme) from themes located in __/usr/share/themes__
 * Change login screen shield. (Login screen's lockscreen image)
 * Enable / disable user list at login. 
-* __NEW!__ Force rounded login icon. __Proven to work gnome-shell 3.32 onwards as it has support for it.__ Might also work earlier versions but is not tested and in case if it is not working nothing will be done to fix.
+* Proven to work gnome-shell 3.36 onwards as it has support for it.__ Might also work earlier versions but is not tested and in case if it is not working nothing can be done to fix.
 
 # gdm3 Lock Screen Background Changer
 Gnome GDM Login Theme Manager. Easy and Fast Login Theme Manipulation.
