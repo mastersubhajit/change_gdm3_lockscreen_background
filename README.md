@@ -36,7 +36,7 @@ You can always restore your original gdm theme any time with `sudo ./change-gdm3
 # Installation Steps (Arch)
 * Step 1: Install glib2 for Arch using `Sudo pacman -S 
 glib2`
-* Step 2: `wget https://github.com/mastersubhajit/change-gdm3-background/raw/main/change-gdm3-background.sh`
+* Step 2: `wget https://github.com/mastersubhajit/change-gdm3-background/raw/main/arch-change-gdm3-background`
 * Step 3: `chmod +x arch-change-gdm-background`
 
 ## Usage (Arch)
