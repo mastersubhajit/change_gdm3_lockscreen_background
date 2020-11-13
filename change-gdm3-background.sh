@@ -203,8 +203,8 @@ else
     # show this message.
     echo 'Image file not found or wrong color hex code.'
     echo 'Please, submit a .jpg or .png image file or a valid hex code.'
-    echo 'Usage: sudo ./ubuntu-20.04-change-gdm-background /path/to/image.*g'
-    echo 'Usage: sudo ./ubuntu-20.04-change-gdm-background \#yourhexcode'
+    echo 'Usage: sudo ./change-gdm3-background /path/to/image.*g'
+    echo 'Usage: sudo ./change-gdm3-background \#yourhexcode'
 
 fi
 
