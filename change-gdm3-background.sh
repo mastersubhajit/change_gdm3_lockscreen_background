@@ -11,7 +11,7 @@ fi
 
 # Check what linux distro is being used.
 distro="$(lsb_release -c | cut -f 2)"
-if ! [[ "$distro" =~ (Focal Fossa|Groovy Gorilla) ]]; then
+if ! [[ "$distro" =~ (focal|groovy) ]]; then
     echo 'Sorry, this script only works with focal or groovy and pop-os 20.04/20.10 distros.'
     exit 1
 fi
@@ -203,8 +203,8 @@ else
     # show this message.
     echo 'Image file not found or wrong color hex code.'
     echo 'Please, submit a .jpg or .png image file or a valid hex code.'
-    echo 'Usage: sudo ./change-gdm3-background /path/to/image.*g'
-    echo 'Usage: sudo ./change-gdm3-background \#yourhexcode'
+    echo 'Usage: sudo ./change-gdm3-background.sh /path/to/image.*g'
+    echo 'Usage: sudo ./change-gdm3-background.sh \#yourhexcode'
 
 fi
 
