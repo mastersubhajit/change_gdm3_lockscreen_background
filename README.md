@@ -46,4 +46,5 @@ glib2`
 __For more information about changing GDM background or if you with to do it manually see GDM article on ArchWiki__ .
 ## Known limitations and issues
 Feel free to report issues until now there is no known issues.
-# THANK YOU
+# Coming Soon
+__Support for Fedora 32 or higher.__
