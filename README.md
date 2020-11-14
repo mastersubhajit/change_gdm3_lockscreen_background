@@ -34,8 +34,7 @@ You can always restore your original gdm theme any time with `sudo ./change-gdm3
 * This also supports solid colour background set, to use it simply type `sudo ./change-gdm3-background.sh \#yourhexcode` in place of "`#yourhexcode`" insert code of six characters like "#923641" or of three characters like "#8ca" without quotes.
 
 # Installation Steps (Arch)
-* Step 1: Install glib2 for Arch using `Sudo pacman -S 
-glib2`
+* Step 1: Install glib2 for Arch using `Sudo pacman -S glib2`
 * Step 2: `wget https://github.com/mastersubhajit/change-gdm3-background/tree/master/arch-change-gdm3-background`
 * Step 3: `chmod +x arch-change-gdm-background`
 
