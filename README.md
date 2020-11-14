@@ -1,6 +1,7 @@
 # change-gdm3-background
 For now this project only supports Ubuntu/Pop-Os-20.04 and 20.10 version!
 __New__ support for Arch linux Gnome environment.
+__New__ support for Fedora 32 onwards. 
 
 ### Features
 * Change login wallpaper
@@ -19,7 +20,7 @@ This script won't work with any previous versions of Ubuntu/Pop-Os because they 
 * Ubuntu 20.04/20.10
 * Pop Os 20.04/20.10
 * __New__ Support for Arch Linux
-
+* __New__ Support for Fedora 31 onwards.
 # Installation Steps (Ubuntu) 
 * Step 1: Install libglib2.0-dev-bin using `sudo apt-get install libglib2.0-dev-bin`
 * Step 2: clone the repo using `WGET` or `git clone`:
@@ -45,7 +46,15 @@ You can always restore your original gdm theme any time with `sudo ./change-gdm3
 * This also supports solid colour background set, to use it simply type `sudo ./arch-change-gdm-background \#yourhexcode` in place of __"#yourhexcode"__ insert code of six characters like "#923641" or of three characters like "#8ca" without quotes.
 
 __For more information about changing GDM background or if you with to do it manually see GDM article on ArchWiki__ .
+
+# Installation Steps & Usage __(Fedora)__
+* You can easily change login screen background
+
+Step 1: `sudo dnf copr enable zirix/gdm-wallpaper`
+
+Step 2: `sudo dnf install gdm-wallpaper`
+
+Step 3: `sudo set-gdm-wallpaper /path/to/image.*g`
+
 ## Known limitations and issues
 Feel free to report issues until now there is no known issues.
-# Coming Soon
-__Support for Fedora 32 or higher.__
