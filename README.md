@@ -43,6 +43,7 @@ glib2`
 * Run the script with root privileges such as `sudo ./arch-change-gdm-background /path/to/image`.
 * If you see a message login image sucessfully changed, then, when you `restart` gdm or `reboot` your computer, your gdm background should be covered with the image you selected.
 * You can restore your original gdm theme any time with `sudo ./arch-change-gdm-background --restore`.
+* This also supports solid colour background set, to use it simply type `sudo ./arch-change-gdm-background \#yourhexcode` in place of __"#yourhexcode"__ insert code of six characters like "#923641" or of three characters like "#8ca" without quotes.
 __For more information about changing GDM background or if you with to do it manually see GDM article on ArchWiki__ .
 ## Known limitations and issues
 Feel free to report issues until now there is no known issues.
