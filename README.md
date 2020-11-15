@@ -1,7 +1,7 @@
 # change-gdm3-background
 For now this project only supports Ubuntu/Pop-Os-20.04 and 20.10 version!
 __New__ support for Arch linux Gnome environment.
-__New__ support for Fedora 32 onwards. 
+__New__ support for Fedora 31 onwards. 
 
 ### Features
 * Change login wallpaper
