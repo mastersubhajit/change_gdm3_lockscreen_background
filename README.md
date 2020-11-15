@@ -58,3 +58,5 @@ Step 3: `sudo set-gdm-wallpaper /path/to/image.*g`
 
 ## Known limitations and issues
 Feel free to report issues until now there is no known issues.
+# Donation
+"__If you liked my project or it helped you somehow, you can appreciate by donating via__" https://ko-fi.com/mastersubhajit
