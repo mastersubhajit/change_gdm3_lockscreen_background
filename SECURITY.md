@@ -9,8 +9,8 @@ currently being supported with security updates.
 | ------- | ------------------ |
 | 20.04   | :white_check_mark: |
 | 20.10   | :white_check_mark: |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| 19.0.x  | :x:                |
+| < 19.0  | :x:                |
 
 ## Reporting a Vulnerability
 
