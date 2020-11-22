@@ -1,5 +1,5 @@
 # change-gdm3-background
-For now this project only supports Ubuntu/Pop-Os-20.04 and 20.10 version!
+For now this project supports Ubuntu/Pop-Os-20.04 and 20.10 version!
 __New__ support for Arch linux Gnome environment.
 __New__ support for Fedora 31 onwards. 
 
