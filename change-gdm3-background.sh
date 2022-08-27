@@ -33,6 +33,8 @@ fi
 # Assign the default gdm theme file path.
 if [ "$(lsb_release -i | awk '{print $3}')" == 'Ubuntu' ]; then
     gdm3Resource=/usr/share/gnome-shell/theme/Yaru/gnome-shell-theme.gresource
+elif [ "$(grep '^ID=' /etc/os-release | awk '{ gsub("ID=","",$1); print $1 }')" == 'zorin' ]; then
+    gdm3Resource=/usr/share/gnome-shell/theme/ZorinBlue-Light/gnome-shell-theme.gresource
 elif [ "$(lsb_release -i | awk '{print $3}')" == 'Pop' ]; then
     gdm3Resource=/usr/share/gnome-shell/theme/Pop/gnome-shell-theme.gresource
 fi
