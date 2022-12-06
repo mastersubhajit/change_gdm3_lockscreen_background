@@ -39,13 +39,13 @@ You can always restore your original gdm theme any time with `sudo ./change-gdm3
 * Step 1: Install glib2 for Arch using `Sudo pacman -S glib2`
 * Step 2: `git clone https://github.com/mastersubhajit/change-gdm3-background`
 * Step 3: `cd changechange-gdm-background`
-* Step 4: `chmod +x arch-change-gdm-background.sh`
+* Step 4: `chmod +x arch-change-gdm-background`
 
 ## Usage (Arch)
-* Run the script with root privileges such as `sudo ./arch-change-gdm-background.sh /path/to/image`.
+* Run the script with root privileges such as `sudo ./arch-change-gdm-background /path/to/image`.
 * If you see a message login image sucessfully changed, then, when you `restart` gdm or `reboot` your computer, your gdm background should be covered with the image you selected.
-* You can restore your original gdm theme any time with `sudo ./arch-change-gdm-background.sh --restore`.
-* This also supports solid colour background set, to use it simply type `sudo ./arch-change-gdm-background.sh \#yourhexcode` in place of __"#yourhexcode"__ insert code of six characters like "#923641" or of three characters like "#8ca" without quotes.
+* You can restore your original gdm theme any time with `sudo ./arch-change-gdm-background --restore`.
+* This also supports solid colour background set, to use it simply type `sudo ./arch-change-gdm-background \#yourhexcode` in place of __"#yourhexcode"__ insert code of six characters like "#923641" or of three characters like "#8ca" without quotes.
 
 __For more information about changing GDM background or if you with to do it manually see GDM article on ArchWiki__ .
 
